@@ -23,23 +23,23 @@ footer{
 
 section{
     background-color: yellow;
-    width: 25vw;
+    width: 30vw;
     height: 40vh;
     position: relative;
     top: 20vh;
-    left: 5vw;
+    left: 3vw;
    
 }
 
 body > main > section:nth-of-type(2){
     position: relative;
     top: -20vh;
-    left: 37vw;
+    left: 35vw;
 }
 
 body > main > section:nth-of-type(3){
     top: -60vh;
-    left: 68vw;
+    left: 67vw;
 }
 
 

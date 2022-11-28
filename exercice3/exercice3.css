@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    
+}
+
+header{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+main{
+    background-color: green;
+    width: 100vw;
+    height:  75vh;
+}
+
+footer{
+    background-color: red;
+    width: 100vw;
+    height: 15vh;
+}
+
+section{
+    background-color: yellow;
+    width: 20vw;
+    height: 21vh;
+    position: absolute;
+    top: 14%;
+    left: 3%;
+   
+}
+
+body > main > section:nth-of-type(2){
+    top: 14%;
+    left: 27%;
+}
+
+body > main > section:nth-of-type(3){
+    top: 14%;
+    left: 50%;
+}
+
+body > main > section:nth-of-type(4){
+    top: 14%;
+    left: 73%;
+}
+body > main > section:nth-of-type(5){
+    top: 38%;
+    left: 15%;
+}
+body > main > section:nth-of-type(6){
+    top: 38%;
+    left: 38%;
+}
+body > main > section:nth-of-type(7){
+    top: 38%;
+    left: 61%;
+}
+body > main > section:nth-of-type(8){
+    top: 62%;
+    left: 27%;
+}
+body > main > section:nth-of-type(9){
+    top: 62%;
+    left: 51%;
+}

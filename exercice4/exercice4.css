@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+
+main{
+    width: 100vw;
+    height:  75vh;
+}
+
+
+section{
+  /*  width: 20vw;
+    height: 21vh; */
+    position: absolute;
+    
+   
+}
+
+body > main > section:first-of-type{
+    width: 63%;
+    top: 14%;
+}
+
+
+body > main > section:nth-of-type(2){
+    width: 33%;
+    top: 14%;
+    left: 67%;
+}
+
+body > main > section:nth-of-type(3){
+    width: 30%;
+    top: 50%;
+    left: 37%;
+}
+
+body > main > section:nth-of-type(4){
+    width: 30%;
+    top: 50%;
+    left: 73%;
+}
+body > main > section:nth-of-type(5){
+    width: 30%;
+    top: 50%;
+
+}
+
