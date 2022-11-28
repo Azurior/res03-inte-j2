@@ -12,6 +12,6 @@ body > header > h1{
 
 }
 
-body > main {
+body > main > section .grey{
     background-color: #f2f3e8;
 }
