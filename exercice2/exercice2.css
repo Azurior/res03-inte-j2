@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    
+}
+
+header{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+main{
+    background-color: green;
+    width: 100vw;
+    height:  75vh;
+}
+
+footer{
+    background-color: red;
+    width: 100vw;
+    height: 15vh;
+}
+
+section{
+    background-color: yellow;
+    width: 25vw;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+   
+}
+
+body > main > section:nth-of-type(2){
+    position: relative;
+    top: -20vh;
+    left: 37vw;
+}
+
+body > main > section:nth-of-type(3){
+    top: -60vh;
+    left: 68vw;
+}
+
+
