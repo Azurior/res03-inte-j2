@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header > nav >ul{
+    list-style-type: none;
+}
+
+body > header > h1{
+    text-align: center;
+
+}
+
+body > main {
+    background-color: #f2f3e8;
+}
